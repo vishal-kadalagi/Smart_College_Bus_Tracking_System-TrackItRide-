@@ -1,0 +1,154 @@
+{
+  "project_info": {
+    "project_number": "1001335563704",
+    "project_id": "navigo-37916",
+    "storage_bucket": "navigo-37916.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001335563704:android:9881d12cb66f6a48225b4d",
+        "android_client_info": {
+          "package_name": "com.example.campus_go"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001335563704-drsp98eajd3gakdubm8rsh8jqok91t56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGu0Y95pPHdz0E6eBsbc2xHSsihE26D9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001335563704-drsp98eajd3gakdubm8rsh8jqok91t56.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1001335563704-13lljmqa0pkrs86gk3840ef2qel487qc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.naviGo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001335563704:android:202f35def88f5077225b4d",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001335563704-drsp98eajd3gakdubm8rsh8jqok91t56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGu0Y95pPHdz0E6eBsbc2xHSsihE26D9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001335563704-drsp98eajd3gakdubm8rsh8jqok91t56.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1001335563704-13lljmqa0pkrs86gk3840ef2qel487qc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.naviGo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001335563704:android:e9fb0a00c07364b8225b4d",
+        "android_client_info": {
+          "package_name": "com.example.navi_go"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001335563704-drsp98eajd3gakdubm8rsh8jqok91t56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGu0Y95pPHdz0E6eBsbc2xHSsihE26D9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001335563704-drsp98eajd3gakdubm8rsh8jqok91t56.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1001335563704-13lljmqa0pkrs86gk3840ef2qel487qc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.naviGo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001335563704:android:04a91ee46c0c7268225b4d",
+        "android_client_info": {
+          "package_name": "com.example.trackify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001335563704-drsp98eajd3gakdubm8rsh8jqok91t56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGu0Y95pPHdz0E6eBsbc2xHSsihE26D9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001335563704-drsp98eajd3gakdubm8rsh8jqok91t56.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1001335563704-13lljmqa0pkrs86gk3840ef2qel487qc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.naviGo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

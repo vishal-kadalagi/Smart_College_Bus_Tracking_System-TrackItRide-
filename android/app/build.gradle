@@ -1,0 +1,45 @@
+plugins {
+    id "com.android.application" // Android app plugin
+    id 'com.google.gms.google-services' // Firebase plugin
+    id "kotlin-android" // Kotlin support
+    id "dev.flutter.flutter-gradle-plugin" // Flutter Gradle plugin
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    defaultConfig {
+        applicationId "com.example.myapp"
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+flutter {
+    source = "../.." // Specifies the Flutter project source directory
+}
+
+// Firebase and other configurations
+apply plugin: 'com.google.gms.google-services' // Ensures Firebase is properly configured

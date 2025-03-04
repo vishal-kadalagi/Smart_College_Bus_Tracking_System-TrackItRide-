@@ -1,0 +1,36 @@
+buildscript {
+    repositories {
+        google()  // To fetch Android Gradle plugin from the Google repository
+        mavenCentral()  // Ensures all dependencies are available
+        maven { url "https://storage.googleapis.com/download.flutter.io" }  // Flutter Maven repository
+    }
+    dependencies {
+        // Use the appropriate version of the Android Gradle Plugin
+        classpath 'com.android.tools.build:gradle:8.1.4'  // Updated to a more recent version of Android Gradle Plugin
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0'  // Kotlin plugin version
+        classpath 'com.google.gms:google-services:4.4.2'  // Firebase plugin for Google services
+    }
+}
+
+// Removed apply plugin line from here
+
+allprojects {
+    repositories {
+        google()  // Google Maven repository for dependencies
+        mavenCentral()  // Central repository for additional libraries
+        maven { url "https://storage.googleapis.com/download.flutter.io" }  // Flutter Maven repository (if using Flutter plugins)
+    }
+}
+
+rootProject.buildDir = "../build"  // Define the root build directory
+
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"  // Define individual project build directories
+    project.evaluationDependsOn(":app")  // Make sure the app module is evaluated before others
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir  // Task to clean build directory
+}
+
+// Removed android block from here
