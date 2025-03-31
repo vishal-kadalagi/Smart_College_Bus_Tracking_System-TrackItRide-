@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # campus_go
 
 A new Flutter project.
@@ -19,3 +20,6 @@ samples, guidance on mobile development, and a full API reference.
 # Campus_Go
 The Smart College Bus Tracking System ensures efficient transportation by providing real-time bus tracking for students. Using a mobile app, students can check live bus locations, reducing waiting times. Built with Flutter and Firebase, it integrates GPS and Google Maps for accurate tracking. Admins can manage routes, improving efficiency.
 >>>>>>> a792acbd29eae6a83b41a72c537d5c0ac416c043
+=======
+The Smart College Bus Tracking System ensures efficient transportation by providing real-time bus tracking for students. Using a mobile app, students can check live bus locations, reducing waiting times. Built with Flutter and Firebase, it integrates GPS and Google Maps for accurate tracking. Admins can manage routes, improving efficiency.
+>>>>>>> 8edefa1f9238edbcd89afd656bd26107333b8e8b
