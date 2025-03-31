@@ -48,7 +48,7 @@
 
     <!-- Add the following key for Google Maps API -->
     <key>GMSApiKey</key>
-    <string>AIzaSyA9gdRiXld_xeoj1dec5oDBQJMj3t8T9Oo</string>
+    <string>"Enter your API Key Here"</string>
 
 </dict>
 </plist>
