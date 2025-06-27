@@ -1,25 +1,36 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# campus_go
+# 🚌 Smart College Bus Tracking System 🚀
 
-A new Flutter project.
+> Real-Time Location, Seamless Commute – Built for Students, Drivers, and Admins
 
-## Getting Started
+## 🌟 Overview
 
-This project is a starting point for a Flutter application.
+The **Smart College Bus Tracking System** revolutionizes how students interact with college transportation. Built using **Flutter** and **Firebase**, it provides **real-time GPS tracking**, **route management**, and **admin controls** — all from the palm of your hand.
 
-A few resources to get you started if this is your first Flutter project:
+📍 **Track your bus live**  
+📆 **See schedules and routes in real-time**  
+📊 **Admin dashboard for smarter route planning**  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+> No more waiting endlessly. Know where your bus is. Anytime. Anywhere.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Campus_Go
-The Smart College Bus Tracking System ensures efficient transportation by providing real-time bus tracking for students. Using a mobile app, students can check live bus locations, reducing waiting times. Built with Flutter and Firebase, it integrates GPS and Google Maps for accurate tracking. Admins can manage routes, improving efficiency.
->>>>>>> a792acbd29eae6a83b41a72c537d5c0ac416c043
-=======
-The Smart College Bus Tracking System ensures efficient transportation by providing real-time bus tracking for students. Using a mobile app, students can check live bus locations, reducing waiting times. Built with Flutter and Firebase, it integrates GPS and Google Maps for accurate tracking. Admins can manage routes, improving efficiency.
->>>>>>> 8edefa1f9238edbcd89afd656bd26107333b8e8b
+---
+
+## 🔧 Tech Stack
+
+| Component        | Technology Used              |
+|------------------|------------------------------|
+| Frontend         | Flutter                      |
+| Backend          | Firebase Realtime Database, Cloud Firestore |
+| Authentication   | Firebase Auth                |
+| Location Tracking| Google Maps API, Geolocation API |
+| APIs             | REST API, WebSockets, GeoFencing API |
+
+---
+
+## 🏗️ System Architecture
+
+```mermaid
+graph TD
+    A[Student App (Flutter)] --> B[Firebase]
+    C[Driver App (Flutter)] --> B
+    D[Admin Dashboard (Web)] --> B
+    B --> E[Google Maps API]
